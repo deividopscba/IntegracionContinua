@@ -1,4 +1,5 @@
 #See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
+#Prueba de CI/CD con jenkins
 
 #Utilizar imagen de runtime compatible con netcore 3.1 en Debian 9 stretch para ejecutar el proyecto una vez que sea compilado.
 FROM kdsoftio/dotnet-runtime AS base
